@@ -1,0 +1,13 @@
+{
+    "name": "pctco/color",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PCtco",
+            "email": "pctco.com@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
