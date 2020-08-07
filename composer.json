@@ -1,13 +1,37 @@
 {
     "name": "pctco/color",
     "type": "project",
+    "keywords": [
+        "color",
+        "image color"
+    ],
+    "homepage": "https://pctco.com",
     "license": "MIT",
+    "description": "Can easily call or get the color value on the photo! !",
     "authors": [
         {
             "name": "PCtco",
-            "email": "pctco.com@gmail.com"
+            "email": "pctco.com@gmail.com",
+            "homepage": "https://pctco.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "support": {
+        "email": "pctco.com@gmail.com",
+        "issues": "https://github.com/pctcocom/color/issues",
+        "forum": "https://pctco.com",
+        "source": "https://github.com/pctcocom/color"
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "suggest": {
+        "ext-event": "For better color configuration. "
+    },
+    "autoload": {
+        "psr-4": {
+            "Color\\": "./"
+        }
+    },
+    "minimum-stability": "dev"
 }
