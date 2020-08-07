@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Color\\": "./"
+            "Pctco\\Color\\": "src"
         }
     },
     "minimum-stability": "dev"
