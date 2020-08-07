@@ -5,6 +5,6 @@ namespace color;
  */
 class Scheme{
    public static function greet(){
-      echo "Hello, Composer!";
+      echo "Hello, Composer2!";
    }
 }
