@@ -1174,7 +1174,8 @@ class Scheme{
             517   =>   ['name'   =>   'No.517','hex'   =>   ['#272637','#474168','#626f92','#f9c4ac']],
             518   =>   ['name'   =>   'No.518','hex'   =>   ['#539092','#8bcfcc','#aee8e6','#f5fac8']],
             519   =>   ['name'   =>   'No.519','hex'   =>   ['#d7fbf6','#48e0e4','#e40475','#0e0220']],
-            520   =>   ['name'   =>   'No.520','hex'   =>   ['#0f0a3c','#07456f','#009f9d','#cdffeb']],
+            520   =>   ['name'   =>   'No.520','hex'   =>   ['#0f0a3c','#07456f','#009f9d','#cdffeb']]
+         ],
          // 渐变色导航
          'gradient'   =>   [
             'EE9CA7FFDDE1'   =>   ['name'   =>   '#EE9CA7,#FFDDE1','hex'   =>   ['#EE9CA7','#FFDDE1']],
