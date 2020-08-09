@@ -11,7 +11,23 @@ class Pick{
    * @return Array
    **/
    public static function ImageMainColor($image){
-      $i=imagecreatefromjpeg($_SERVER['DOCUMENT_ROOT'].$image);//图片路径
+      $image = $_SERVER['DOCUMENT_ROOT'].$image; // 图片路径
+      switch (strtolower(strrchr($image,'.'))) {
+         case '.png':
+            $i = imagecreatefrompng($image);
+            break;
+         case '.jpg':
+            $i = imagecreatefromjpeg($image);
+            break;
+         default:
+            $i = false;
+            break;
+      }
+
+      if ($i === false) {
+         return 'Please enter pictures with the suffix of .jpg and .png';
+      }
+
       for ($x=0;$x<imagesx($i);$x++) {
          if ($x == 0) {
             for ($y=0;$y<imagesy($i);$y++) {

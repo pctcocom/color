@@ -22,3 +22,7 @@ $data['data']['china-tradition'];
 
 
 ## Picture picking
+```
+use Pctco\Color\Pick;
+Pick::ImageMainColor('/strawberry.jpg');
+```
