@@ -4,7 +4,12 @@ namespace Pctco\Color;
  * 配色方案
  */
 class Scheme{
-   public static function data(){
+   /**
+   * @name Color Table
+   * @describe 颜色表
+   * @return Array
+   **/
+   public static function ColorTable(){
       $data = [
          // 中国传统色彩
          'china-tradition'   =>   [
