@@ -4,27 +4,32 @@ composer require pctco/color dev-master
 ```
 
 ## Color table
-1. china-tradition - 中国传统色彩
-2. japan-tradition - 日本传统色彩
-3. pick - 配色导航
-4. gradient - 渐变色导航
+|$key|note|
+|:-|:-|
+|china-tradition|中国传统色彩|
+|japan-tradition|日本传统色彩|
+|pick|配色导航|
+|gradient|渐变色导航|
 
 ```
 use Pctco\Color\Scheme;
 $data = Scheme::ColorTable();
-$data['data']['china-tradition'];
+$data['data'][$key];
 ```
 
 ## Color conversion
-- RGB TO CMYK
-- RGB TO HEX
 
-- CMYK TO RGB
-- CMYK TO HEX
+```
+use Pctco\Color\Conversion
+Conversion::colorconv($input,$mode,$html);
+```
 
-- HEX TO RGB
-- HEX TO CMYK
-
+|note|$input|$mode|$html|
+|:-|:-|:-|:-|
+|rgb to hsl|[128,255,255]|rgb2hsl|false|
+|hsl to rgb|[180,100,75]|hsl2rgb|false|
+|rgb to hex|[128,255,255]|rgb2hex|false|
+|hex to rgb|#80ffff|hex2rgb|false|
 
 ## Picture picking
 ```
