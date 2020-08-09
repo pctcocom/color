@@ -1,3 +1,8 @@
+## Install
+```
+composer require pctco/color dev-master
+```
+
 ## Color table
 1. china-tradition - 中国传统色彩
 2. japan-tradition - 日本传统色彩
