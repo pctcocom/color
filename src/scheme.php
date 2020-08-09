@@ -1512,30 +1512,10 @@ class Scheme{
             '03001E,7303C0EC38BCFDEFF9'=>['name'=>'#03001E,#7303C0,#EC38BC,#FDEFF9','hex'=>['#03001E','#7303C0','#EC38BC','#FDEFF9']],
             '667DB60082C80082C8667DB6'=>['name'=>'#667DB6,#0082C8,#0082C8,#667DB6','hex'=>['#667DB6','#0082C8','#0082C8','#667DB6']],
             'ADA996F2F2F2DBDBDBEAEAEA'=>['name'=>'#ADA996,#F2F2F2,#DBDBDB,#EAEAEA','hex'=>['#ADA996','#F2F2F2','#DBDBDB','#EAEAEA']],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          ],
+      ];
+      return [
+         'data'   =>   $data
       ];
    }
 }
